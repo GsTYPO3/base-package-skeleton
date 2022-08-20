@@ -1,0 +1,39 @@
+{
+	"name": "your_vendor_name/base_package_project_name",
+	"description": "TYPO3 Base Package for the generation of a TYPO3 Sitepackage <your_additional_description>.",
+	"license": "GPL-2.0-or-later",
+	"type": "typo3-base-package",
+	"authors": [
+		{
+			"name": "your_full_name",
+			"email": "you@example.org",
+			"homepage": "https://example.org",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/<account_or_organization_name>/<repository_name>/issues",
+		"chat": "https://typo3.org/help",
+		"source": "https://github.com/<account_or_organization_name>/<repository_name>",
+		"docs": "https://docs.typo3.org"
+	},
+	"require-dev": {
+		"ergebnis/composer-normalize": "^2.28",
+		"typo3/coding-standards": "^0.5"
+	},
+	"config": {
+		"allow-plugins": {
+			"ergebnis/composer-normalize": true
+		}
+	},
+	"extra": {
+		"typo3/base-package": {
+			"core-versions": [
+				"10.4",
+				"11.5"
+			],
+			"description": "<Description_of_your_TYPO3_Base_Package>.",
+			"title": "<Title_of_your_TYPO3_Base_Package>"
+		}
+	}
+}
